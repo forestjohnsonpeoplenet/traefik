@@ -331,8 +331,6 @@ imports:
   subpackages:
   - unix
   - windows
-- name: gopkg.in/fsnotify.v1
-  version: 944cff21b3baf3ced9a880365682152ba577d348
 - name: gopkg.in/mgo.v2
   version: 22287bab4379e1fbf6002fb4eb769888f3fb224c
   subpackages:

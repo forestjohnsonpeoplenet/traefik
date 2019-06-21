@@ -67,7 +67,6 @@ import:
 - package: golang.org/x/net
   subpackages:
   - context
-- package: gopkg.in/fsnotify.v1
 - package: github.com/libkermit/compose
   version: cadc5a3b83a15790174bd7fbc75ea2529785e772
 - package: github.com/libkermit/docker
