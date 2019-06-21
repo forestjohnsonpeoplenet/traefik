@@ -1,16 +1,11 @@
+# Forest's notes
 
-<p align="center">
-<img src="docs/img/traefik.logo.png" alt="Træfɪk" title="Træfɪk" />
-</p>
+```
 
-[![Build Status](https://travis-ci.org/containous/traefik.svg?branch=master)](https://travis-ci.org/containous/traefik)
-[![Docs](https://img.shields.io/badge/docs-current-brightgreen.svg)](https://docs.traefik.io)
-[![Go Report Card](https://goreportcard.com/badge/kubernetes/helm)](http://goreportcard.com/report/containous/traefik)
-[![](https://images.microbadger.com/badges/image/traefik.svg)](https://microbadger.com/images/traefik)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/containous/traefik/blob/master/LICENSE.md)
-[![Join the chat at https://traefik.herokuapp.com](https://img.shields.io/badge/style-register-green.svg?style=social&label=Slack)](https://traefik.herokuapp.com)
-[![Twitter](https://img.shields.io/twitter/follow/traefikproxy.svg?style=social)](https://twitter.com/intent/follow?screen_name=traefikproxy)
+sudo make binary
+sudo docker build -f ./patch.Dockerfile -t "my-image-repo:my-tag" .
 
+```
 
 Træfɪk is a modern HTTP reverse proxy and load balancer made to deploy microservices with ease.
 It supports several backends ([Docker](https://www.docker.com/), [Swarm](https://docs.docker.com/swarm), [Kubernetes](http://kubernetes.io), [Marathon](https://mesosphere.github.io/marathon/), [Mesos](https://github.com/apache/mesos), [Consul](https://www.consul.io/), [Etcd](https://coreos.com/etcd/), [Zookeeper](https://zookeeper.apache.org), [BoltDB](https://github.com/boltdb/bolt), Rest API, file...) to manage its configuration automatically and dynamically.

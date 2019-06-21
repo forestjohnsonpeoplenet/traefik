@@ -81,7 +81,7 @@ func (provider *File) loadFileConfig(filename string) *types.Configuration {
 	return configuration
 }
 
-func hashFile(string filename) (string, error) {
+func hashFile(filename string) (string, error) {
 	bytes, err := ioutil.ReadFile(filename)
 	if err != nil {
 		log.Error("hashFile: Error reading file", err)

@@ -1,4 +1,4 @@
-FROM golang:1.7
+FROM golang:1.9
 
 RUN go get github.com/Masterminds/glide \
 && go get github.com/jteeuwen/go-bindata/... \
